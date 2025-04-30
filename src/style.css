@@ -1,37 +1,49 @@
+:root {
+  --heading-font-family: "Inter", sans-serif;
+  --branding-color: #ff5c05;
+  --main-color: #151312;
+  --secondary-color: #ffffff;
+}
+
 body {
-  background-color: #151312;
+  background-color: var(--main-color);
 }
 
 h1,
 h2 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--heading-font-family);
   font-size: 60px;
   font-weight: 900;
-  color: white;
+  color: var(--secondary-color);
 }
 
 h3 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 800;
 }
 
 p {
-  font-family: "Inter", sans-serif;
+  font-family: var(--heading-font-family);
   font-weight: 300;
-  color: white;
+  color: var(--secondary-color);
 }
 
 .btn-orange {
-  background-color: #ff5c05;
-  color: white;
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 30px;
 }
+
 .btn-orange:hover {
   background-color: #e05504;
-  color: white;
+  color: var(--secondary-color);
 }
 
 .card {
-  background-color: white;
+  background-color: var(--secondary-color);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
