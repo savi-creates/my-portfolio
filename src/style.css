@@ -27,6 +27,7 @@ p {
   font-weight: 300;
   color: var(--secondary-color);
   font-size: 16px;
+  line-height: 1.5;
 }
 
 .btn-orange {
