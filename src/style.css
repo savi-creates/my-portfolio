@@ -12,6 +12,7 @@ h2 {
 
 h5 {
   font-family: "Inter", sans-serif;
+  font-weight: 800;
 }
 
 p {
@@ -34,6 +35,6 @@ p {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-.text-warning {
-  color: #ff5c05 !important;
+h1.fw-bold + h1.fw-bold {
+  margin-top: -20px;
 }
