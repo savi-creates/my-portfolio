@@ -75,13 +75,13 @@ h1.fw-bold + h1.fw-bold {
 }
 
 a {
-  color: var(--branding-color);
+  color: rgb(201, 201, 201);
   text-decoration: none;
   cursor: pointer;
 }
 
 a:hover {
-  color: #ce4d02;
+  color: #cea902;
 }
 
 .projects-link {
