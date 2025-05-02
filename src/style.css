@@ -28,6 +28,13 @@ h4 {
   font-size: 28pxpx;
 }
 
+h5 {
+  font-family: var(--heading-font-family);
+  font-size: 24px;
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+
 p {
   font-family: var(--heading-font-family);
   font-weight: 300;
