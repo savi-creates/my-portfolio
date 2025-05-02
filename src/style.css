@@ -148,6 +148,15 @@ a:hover {
   height: auto;
 }
 
+.footer-icons .hover-icon {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icons .hover-icon:hover {
+  transform: scale(1.2);
+  color: var(--branding-color);
+}
+
 @media (min-width: 992px) {
   .sticky-profile {
     position: sticky;
