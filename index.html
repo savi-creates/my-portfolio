@@ -32,20 +32,49 @@
       <div
         class="nav-icons bg-dark rounded-pill px-4 py-2 mt-3 d-flex justify-content-between gap-4"
       >
-        <a href="index.html" class="text-white" aria-label="Home">
+        <a
+          href="index.html"
+          class="text-white"
+          aria-label="Home"
+          title="Homepage"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+        >
           <i class="fa-solid fa-house fa-lg"></i>
         </a>
-        <a href="about.html" class="text-white" aria-label="About">
+        <a
+          href="about.html"
+          class="text-white"
+          aria-label="About"
+          title="About Me"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+        >
           <i class="fa-solid fa-user fa-lg"></i>
         </a>
-        <a href="projects.html" class="text-white" aria-label="Projects">
+        <a
+          href="projects.html"
+          class="text-white"
+          aria-label="Projects"
+          title="Projects"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+        >
           <i class="fa-solid fa-folder fa-lg"></i>
         </a>
-        <a href="contact.html" class="text-white" aria-label="Contacts">
+        <a
+          href="contact.html"
+          class="text-white"
+          aria-label="Contacts"
+          title="Contact"
+          data-bs-toggle="tooltip"
+          data-bs-placement="bottom"
+        >
           <i class="fa-solid fa-phone fa-lg"></i>
         </a>
       </div>
     </nav>
+
     <div class="container my-5">
       <div class="row align-items-center">
         <div class="col-md-5 mb-4 mb-md-0 sticky-profile">
@@ -195,5 +224,13 @@
         </div>
       </section>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const tooltipTriggerList = document.querySelectorAll(
+          '[data-bs-toggle="tooltip"]'
+        );
+        [...tooltipTriggerList].forEach((el) => new bootstrap.Tooltip(el));
+      });
+    </script>
   </body>
 </html>
