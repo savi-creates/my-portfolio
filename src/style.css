@@ -143,6 +143,11 @@ a:hover {
   transform: scale(1.2);
 }
 
+.small-tag {
+  width: 100px;
+  height: auto;
+}
+
 @media (min-width: 992px) {
   .sticky-profile {
     position: sticky;
