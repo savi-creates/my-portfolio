@@ -66,6 +66,14 @@ h1.fw-bold + h1.fw-bold {
   margin-top: -20px;
 }
 
+.bg-dark {
+  background-color: #1a1a1a !important;
+}
+
+.tool-description {
+  line-height: 1.2;
+}
+
 @media (min-width: 992px) {
   .sticky-profile {
     position: sticky;
