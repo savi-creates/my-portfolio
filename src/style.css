@@ -74,6 +74,54 @@ h1.fw-bold + h1.fw-bold {
   line-height: 1.2;
 }
 
+a {
+  color: var(--branding-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ce4d02;
+}
+
+.projects-link {
+  background-color: var(--branding-color);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: var(--heading-font-family);
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.projects-link:hover {
+  transform: scale(1.03);
+  background-color: #a9afb9;
+}
+
+.projects-link a {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.projects-link a::after {
+  content: " →";
+  transition: transform 0.3s ease;
+}
+
+.projects-link a:hover::after {
+  transform: translateX(5px);
+}
+
+.contact-text {
+  color: var(--secondary-color);
+}
+
 @media (min-width: 992px) {
   .sticky-profile {
     position: sticky;
