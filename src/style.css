@@ -82,7 +82,7 @@ a {
 }
 
 a:hover {
-  color: #cea902;
+  color: var(--branding-color);
 }
 
 .projects-link {
