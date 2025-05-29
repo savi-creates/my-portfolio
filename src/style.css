@@ -171,7 +171,36 @@ a:hover {
 }
 
 #about {
-  margin-bottom: 85px;
+  margin-bottom: 80px;
+}
+
+#section-1 p {
+  font-size: 14px;
+}
+
+#section-1 h3 {
+  font-size: 25px;
+}
+
+#section-1 img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.sticky-profile .card {
+  max-width: 420px;
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+#section-2 h3 {
+  font-size: 25px;
+}
+
+#section-2 p {
+  font-size: 14px;
 }
 
 @media (min-width: 992px) {
