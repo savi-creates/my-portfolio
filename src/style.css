@@ -166,6 +166,14 @@ a:hover {
   color: #ffa14a;
 }
 
+.about-text {
+  line-height: 1.5;
+}
+
+#about {
+  margin-bottom: 85px;
+}
+
 @media (min-width: 992px) {
   .sticky-profile {
     position: sticky;
