@@ -175,7 +175,7 @@ a:hover {
 }
 
 #section-1 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #section-1 h3 {
@@ -183,6 +183,12 @@ a:hover {
 }
 
 #section-1 img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#section-2 img {
   max-width: 100%;
   margin: 0 auto;
   display: block;
@@ -200,7 +206,7 @@ a:hover {
 }
 
 #section-2 p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (min-width: 992px) {
